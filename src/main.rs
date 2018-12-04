@@ -3,6 +3,7 @@ extern crate clap;
 use clap::{Arg, App};
 
 mod day01;
+mod day02;
 
 fn main() {
     let matches = App::new("Advent of Code 2018")
@@ -17,7 +18,7 @@ fn main() {
 
     match problem {
         1 => day01::solve(),
-        //2 => day02::solve();
+        2 => day02::solve(),
         //3 => day03::solve();
         //4 => day04::solve();
         //5 => day05::solve();
